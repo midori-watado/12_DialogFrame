@@ -1,0 +1,25 @@
+
+Error happened 2016/08/16 19:04:44
+Traceback (most recent call last):
+  File "DialogFrame.py", line 1021, in <module>
+  File "DialogFrame.py", line 221, in __init__
+  File "DialogFrame.py", line 42, in __init__
+  File "DialogFrame.py", line 95, in createTextList
+UnboundLocalError: local variable 'text' referenced before assignment
+
+Error happened 2016/08/16 19:05:08
+Traceback (most recent call last):
+  File "DialogFrame.py", line 1021, in <module>
+  File "DialogFrame.py", line 221, in __init__
+  File "DialogFrame.py", line 42, in __init__
+  File "DialogFrame.py", line 95, in createTextList
+UnboundLocalError: local variable 'text' referenced before assignment
+
+Error happened 2016/08/16 19:08:42
+Traceback (most recent call last):
+  File "DialogFrame.py", line 1022, in <module>
+  File "DialogFrame.py", line 272, in main
+  File "DialogFrame.py", line 486, in dialogMode
+  File "DialogFrame.py", line 683, in dialogEvent
+  File "DialogFrame.py", line 833, in diceTag
+KeyError: 'x'
